@@ -1,0 +1,32 @@
+REQUEST 
+ ------------------------------------------------------------- 
+ data=<GVPSRequest>
+            <Mode>PROD</Mode>
+            <Version>v0.01</Version>
+            <Terminal>
+            <ProvUserID>PROVAUT</ProvUserID>
+            <HashData>471201F839773A4C43883AA1D573C2D479B0B3C0</HashData>
+            <UserID>PROVAUT</UserID>
+            <ID>10100000</ID>
+            <MerchantID>9990000</MerchantID>
+            </Terminal>
+            <Customer>
+            <IPAddress></IPAddress>
+            <EmailAddress></EmailAddress>
+            </Customer>
+            <Order>
+            <OrderID>200089721</OrderID>
+            <GroupID></GroupID>
+            </Order>
+            <Transaction>
+            <Type>orderhistoryinq</Type>
+            <InstallmentCnt></InstallmentCnt>
+            <Amount>1</Amount>
+            <CurrencyCode>949</CurrencyCode>
+            <CardholderPresentCode>0</CardholderPresentCode>
+            <MotoInd>N</MotoInd>
+            </Transaction>
+            </GVPSRequest> 
+RESPONSE 
+ ------------------------------------------------------------- 
+ <GVPSResponse><Mode></Mode><Terminal><ProvUserID>PROVAUT</ProvUserID><UserID>PROVAUT</UserID><ID>10100000</ID><MerchantID>9990000</MerchantID></Terminal><Customer><IPAddress></IPAddress><EmailAddress></EmailAddress></Customer><Order><OrderID>200089721</OrderID><GroupID></GroupID><OrderHistInqResult><OrderTxnList></OrderTxnList></OrderHistInqResult></Order><Transaction><Response><Source>GVPS</Source><Code>92</Code><ReasonCode>0752</ReasonCode><Message>Declined</Message><ErrorMsg>Terminal kaydı yok</ErrorMsg><SysErrMsg>ErrorId: 0752</SysErrMsg></Response><RetrefNum></RetrefNum><AuthCode></AuthCode><BatchNum></BatchNum><SequenceNum></SequenceNum><ProvDate>20120802 18:29:03</ProvDate><CardNumberMasked></CardNumberMasked><CardHolderName></CardHolderName><CardType></CardType><HashData>567F95844190BA2462C5E48CAE607D4515849449</HashData><HostMsgList></HostMsgList><RewardInqResult><RewardList></RewardList><ChequeList></ChequeList></RewardInqResult></Transaction></GVPSResponse> 
