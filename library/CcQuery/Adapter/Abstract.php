@@ -41,11 +41,4 @@ abstract class CcQuery_Adapter_Abstract implements CcQuery_Adapter_Interface
         $response = $this->_post($this->_config['url'], $requestXml);
         return $this->_processResponseMessage($response);
     }
-
-    public function refund(CcQuery_Query_Request $request)
-    {
-        $requestXml = $this->_getRefundRequestXml($request);
-        $response = $this->_post($this->_config['url'], $requestXml);
-        return $this->_processResponseMessage($response);
-    }
 }

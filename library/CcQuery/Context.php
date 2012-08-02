@@ -32,9 +32,4 @@ class CcQuery_Context
     {
         return $this->_adapter->sendQuery($request);
     }
-
-    public function refund(CcQuery_Query_Request $request)
-    {
-        return $this->_adapter->refund($request);
-    }
 }
