@@ -1,5 +1,5 @@
 CcQueryTool belirli bir sipariş numarasına ait borç, alacak bakiye verisini sorgulamak için geliştirilmiş bir kütüphanedir.
-Bu kütüphaneyi kullanarak Est, Posnet ve Garanti sanal pos altyapısını kullanan herhangibir sanal pos apisi üzerinde sorgulama gerçekleştirebilirsiniz.
+Bu kütüphaneyi kullanarak Est, Posnet ve Garanti Sanal pos altyapıları üzerinde sorgulama gerçekleştirebilirsiniz.
 
 Örnek:
 -----------------
