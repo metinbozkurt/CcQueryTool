@@ -1,8 +1,8 @@
+<h1>CcQueryTool Nedir ?</h1>
 CcQueryTool belirli bir sipariş numarasına ait borç, alacak bakiye verisini sorgulamak için geliştirilmiş bir kütüphanedir.
 Bu kütüphaneyi kullanarak Est, Posnet ve Garanti Sanal pos altyapıları üzerinde sorgulama gerçekleştirebilirsiniz.
 
-Örnek:
------------------
+<h1>Örnek Kullanım</h1>
 $options = array(
             'url'           => 'https://sanalposprov.garanti.com.tr/VPServlet',
             'username'      => 'PROVAUT',
@@ -22,8 +22,7 @@ $result = $bank->sendQuery($request);
 
 print_r($result);
 
-Sonuç:
--------------------------
+<b2>Sonuç</h2>
 CcQuery_Query_Response Object
 (
      [success] => 1
