@@ -4,6 +4,8 @@ Bu kütüphaneyi kullanarak Est, Posnet ve Garanti Sanal pos altyapıları üzer
 
 ## Örnek Kullanım
 ...php
+
+<?php
 $options = array(
             'url'           => 'https://sanalposprov.garanti.com.tr/VPServlet',
             'username'      => 'PROVAUT',
@@ -22,7 +24,10 @@ $request->orderId = '200089721';
 $result = $bank->sendQuery($request);
 
 print_r($result);
+?>
+
 ---
+
 ## Sonuç
 ...php
 CcQuery_Query_Response Object
