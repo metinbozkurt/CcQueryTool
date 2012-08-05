@@ -3,7 +3,7 @@ CcQueryTool belirli bir sipariş numarasına ait borç, alacak bakiye verisini s
 Bu kütüphaneyi kullanarak Est, Posnet ve Garanti Sanal pos altyapıları üzerinde sorgulama gerçekleştirebilirsiniz.
 
 ## Örnek Kullanım
-...php
+```php
 
 <?php
 $options = array(
@@ -26,10 +26,10 @@ $result = $bank->sendQuery($request);
 print_r($result);
 ?>
 
----
+```
 
 ## Sonuç
-...php
+```php
 CcQuery_Query_Response Object
 (
      [success] => 1
@@ -37,4 +37,4 @@ CcQuery_Query_Response Object
      [refunded] => 46.15
      [balance] => 138.78
  )
-...
+```
